@@ -4,7 +4,7 @@ An unofficial browser extension to add unofficial functionality to the destiny.g
 
 ### Requirements
 
-1. Node >= 7.7.1 (Just use 7.7.1 if you can)
+1. Node >= 13.7.0
 1. everything [here](https://github.com/destinygg/website#requirements)
 
 ### How it works
@@ -13,11 +13,7 @@ The extension redirects requests for the javascript that controls the chat to a 
 
 ### How to build
 
-1. Clone this repository
-  1. `git clone https://github.com/downthecrop/bbdgg`
-1. Initialize the destiny.gg website submodule in `./dgg`
-  1. `git submodule init`
-  1. `git submodule update`
+1. Initialize the `./dgg` modules
   1. `cd dgg`
   1. `npm i`
   1. `cd ..`
