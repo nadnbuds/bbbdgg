@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "./scripts/build.sh"
+    "build": "bash ./scripts/build.sh"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.46",

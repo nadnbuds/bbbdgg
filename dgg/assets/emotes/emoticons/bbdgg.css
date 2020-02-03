@@ -128,6 +128,15 @@
      width: 32px;
      height: 30px;
 }
+.emote.PepoTurkey{
+    background-image: url("PepoTurkey.png");
+    width: 34px;
+    height: 28px;
+    animation: AYAYA-anim 600ms steps(60) 1;
+}
+.emote.PepoTurkey:hover{
+    animation: AYAYA-anim-hover 600ms steps(60) 1;
+}
  .emote.PepoWant {
      background-image: url("PepoWant.png");
      width: 38px;
@@ -173,7 +182,7 @@
      width: 32px;
      height: 32px;
 }
- .emote.D\: {
+ .emote.DCOLON {
      background-image: url("DCOLON.png");
      width: 28px;
      height: 28px;
@@ -300,4 +309,5 @@
 .msg-chat .emote.monkaSMEGA{margin-top: -30px;top: 7px;}
 .msg-chat .emote.ComfyDog{margin-top: -32px;top: 7px;}
 .msg-chat .emote.FeelsGimiMan{margin-top: -32px;top: 7px;}
-.msg-chat .emote.D\:{margin-top: -30px;top: 7px;}
+.msg-chat .emote.DCOLON{margin-top: -30px;top: 7px;}
+.msg-chat .emote.PepoTurkey{margin-top: -30px;top: 7px;}
